@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --dark-blue: #1a2932;
   --lighter-blue: #1f3640;
@@ -9,10 +14,10 @@
 
 body {
   background-color: var(--dark-blue);
-  padding: 100px;
 }
 
-p {
+p,
+h1 {
   text-align: center;
 }
 
@@ -26,4 +31,8 @@ p {
 
 .gray-text {
   color: var(--gray);
+}
+
+.turquoise-text {
+  color: var(--turquoise);
 }
